@@ -4,6 +4,16 @@ RPS:
 
 acmstyle.pdf
 
+Confounding-variable.md
+
+Extraneous-variables.md
+
+Data-collection.md
+
+Experimental-design.md
+
+population&sample.md
+
 IDSS:
 
 Entropy.pdf
