@@ -31,17 +31,13 @@ The calculation of the  *p* -value depends on the statistical test you are using
 * Different statistical tests have different assumptions and generate different test statistics. You should choose the [statistical test](https://www.scribbr.com/statistics/statistical-tests/) that best fits your data and matches the effect or relationship you want to test.
 * The number of [independent variables](https://www.scribbr.com/methodology/independent-and-dependent-variables/) you include in your test changes how large or small the test statistic needs to be to generate the same  *p* -value.
 
-
 Example: Choosing a statistical test
 
 If you are comparing only two different diets, then a two-sample  *t* -test is a good way to compare the groups. To compare three different diets, use an [ANOVA ](http://www.sthda.com/english/wiki/one-way-anova-test-in-r)instead – doing multiple pairwise comparisons will result in artificially low  *p* -values and lets you overestimate the significance of the difference between groups.
 
-
-
 ## Reporting  *p* -values
 
 *P-* values of statistical tests are usually reported in the[ results section](https://www.scribbr.com/dissertation/results/) of a research paper, along with the key information needed for readers to put the  *p* -values in context – for example, correlation coefficient in a [linear regression](https://www.scribbr.com/statistics/simple-linear-regression/), or the average difference between treatment groups in a [ *t* -test](https://www.scribbr.com/statistics/t-test/).
-
 
 ## Caution when using  *p* -values
 
@@ -49,4 +45,4 @@ If you are comparing only two different diets, then a two-sample  *t* -test is a
 
 In reality, the risk of rejecting the null hypothesis is often higher than the  *p* -value, especially when looking at a single study or when using small sample sizes. This is because the smaller your frame of reference, the greater the chance that you stumble across a statistically significant pattern completely by accident.
 
-*P* -values are also often interpreted as supporting or refuting the alternative hypothesis. This is not the case.** The  *p* -value can only tell you whether or not the null hypothesis is supported.** It cannot tell you whether your alternative hypothesis is true, or why.
+*P* -values are also often interpreted as supporting or refuting the alternative hypothesis. This is not the case. **The  *p* -value can only tell you whether or not the null hypothesis is supported.** It cannot tell you whether your alternative hypothesis is true, or why.
